@@ -14,6 +14,8 @@ import NotFound from "./pages/not_found";
 import LandingPage from "./pages/landing_page";
 import theme from "./theme";
 import ErrorPage from "./pages/error";
+import Cookies from "js-cookie";
+
 
 export default function App() {
   const [signedIn, setSignedIn] = useState(false);
